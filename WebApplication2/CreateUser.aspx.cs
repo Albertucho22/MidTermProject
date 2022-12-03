@@ -21,9 +21,6 @@ namespace WebApplication2
             con.Close();
             Label1.Text = "Data has been inserted";
             GridView1.DataBind();
-            TextBox1.Text = "";
-            TextBox2.Text = "";
-            TextBox3.Text = "";
         }
     }
 }
