@@ -37,6 +37,9 @@
             Foto:<asp:FileUpload ID="image" runat="server" />
         </p>
         <p>
+            <asp:Image ID="Image1" runat="server" Height="81px" Width="271px" />
+        </p>
+        <p>
             NivelAcademico:<asp:TextBox ID="TextBox8" runat="server"></asp:TextBox>
         </p>
         <p>
