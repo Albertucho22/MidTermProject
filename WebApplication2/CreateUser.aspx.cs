@@ -7,7 +7,7 @@ namespace WebApplication2
     public partial class CreateUser : System.Web.UI.Page
     {
         SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString);
-        int i = 2;
+        int i = 0;
         protected void Page_Load(object sender, EventArgs e)
         {
             con.Open();
